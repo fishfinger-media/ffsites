@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     var ffcomment = document.createComment("Made by Fishfinger Media");
     var ffdoctype = document.doctype;
-    ffdoctype.parentNode.insertBefore(ffcomment, doctype.nextSibling);
+    ffdoctype.parentNode.insertBefore(ffcomment, ffdoctype.nextSibling);
 });
 
 // COPYRIGHT DATE 
